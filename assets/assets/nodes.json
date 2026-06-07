@@ -1,0 +1,536 @@
+[
+  {
+    "id": "INPUT1",
+    "name": "Ver-Mac",
+    "connectedToIds": [
+      "INPUT2"
+    ],
+    "type": "input",
+    "x": 120,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT2",
+    "name": "Bosch",
+    "connectedToIds": [
+      "RSU2"
+    ],
+    "type": "input",
+    "x": 360,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT3",
+    "name": "Cavnue",
+    "connectedToIds": [
+      "OTHER4"
+    ],
+    "type": "input",
+    "x": 120,
+    "y": 1020,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT4",
+    "name": "Miovision",
+    "connectedToIds": [
+      "OTHER1"
+    ],
+    "type": "input",
+    "x": 560,
+    "y": 1020,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT5",
+    "name": "Signal Controller (Detroit)",
+    "connectedToIds": [
+      "INPUT4"
+    ],
+    "type": "input",
+    "x": 560,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT6",
+    "name": "DERQ (MDOT)",
+    "connectedToIds": [
+      "RSU3"
+    ],
+    "type": "input",
+    "x": 740,
+    "y": 1020,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT7",
+    "name": "IQSIGHT (MDOT)",
+    "connectedToIds": [
+      "INPUT6"
+    ],
+    "type": "input",
+    "x": 840,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT8",
+    "name": "MH Corbin (MDOT)",
+    "connectedToIds": [
+      "RSU3"
+    ],
+    "type": "input",
+    "x": 920,
+    "y": 1020,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT9",
+    "name": "Signal Controller (MDOT)",
+    "connectedToIds": [
+      "INPUT10"
+    ],
+    "type": "input",
+    "x": 1080,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT10",
+    "name": "MMITSS (WSP/Purdue)(MDOT)",
+    "connectedToIds": [
+      "RSU3"
+    ],
+    "type": "input",
+    "x": 1080,
+    "y": 1020,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "INPUT11",
+    "name": "Signal Controller (Cisco/MDOT)",
+    "connectedToIds": [
+      "RSU4"
+    ],
+    "type": "input",
+    "x": 1300,
+    "y": 1120,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "RSU1",
+    "name": "Cavnue RSUs (Commsignia)",
+    "connectedToIds": [],
+    "type": "rsu",
+    "x": 340,
+    "y": 760,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "RSU2",
+    "name": "I-94 Trailer RSUs (MDOT Denlaw)",
+    "connectedToIds": [
+      "ODE2"
+    ],
+    "type": "rsu",
+    "x": 540,
+    "y": 760,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "RSU3",
+    "name": "M1 RSU's (MDOT Denlaw)",
+    "connectedToIds": [
+      "ODE2"
+    ],
+    "type": "rsu",
+    "x": 740,
+    "y": 760,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "RSU4",
+    "name": "Jefferson RSUs (Iteris)",
+    "connectedToIds": [
+      "ODE2"
+    ],
+    "type": "rsu",
+    "x": 940,
+    "y": 760,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OBU1",
+    "name": "OBU (MDOT/FHWA)",
+    "connectedToIds": [
+      "OBU2",
+      "OBU3",
+      "RSU1",
+      "RSU2",
+      "RSU3"
+    ],
+    "type": "obu",
+    "x": 1560,
+    "y": 860,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OBU2",
+    "name": "OBU (OmniTrust)",
+    "connectedToIds": [
+      "OBU1",
+      "OBU3",
+      "RSU1",
+      "RSU2",
+      "RSU3"
+    ],
+    "type": "obu",
+    "x": 1720,
+    "y": 960,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OBU3",
+    "name": "OBU (Other)",
+    "connectedToIds": [
+      "OBU2",
+      "OBU1",
+      "RSU1",
+      "RSU2",
+      "RSU3"
+    ],
+    "type": "obu",
+    "x": 1560,
+    "y": 1040,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OTHER1",
+    "name": "Miovision",
+    "connectedToIds": [
+      "ME1",
+      "ME2"
+    ],
+    "type": "other",
+    "x": 120,
+    "y": 300,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OTHER2",
+    "name": "RTK (MDOT)",
+    "connectedToIds": [
+      "ODE1"
+    ],
+    "type": "other",
+    "x": 120,
+    "y": 420,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OTHER3",
+    "name": "HAAS",
+    "connectedToIds": [
+      "ODE1",
+      "OTHER1"
+    ],
+    "type": "other",
+    "x": 120,
+    "y": 520,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "OTHER4",
+    "name": "Cavnue",
+    "connectedToIds": [
+      "OTHER3"
+    ],
+    "type": "other",
+    "x": 120,
+    "y": 620,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ODE1",
+    "name": "J2735 Translator",
+    "connectedToIds": [
+      "ODE2"
+    ],
+    "type": "ode",
+    "x": 540,
+    "y": 500,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ODE2",
+    "name": "Message Distributor",
+    "connectedToIds": [
+      "ODE5",
+      "ODE4",
+      "ODE3"
+    ],
+    "type": "ode",
+    "x": 740,
+    "y": 500,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ODE3",
+    "name": "AV Interface",
+    "connectedToIds": [
+      "ME6"
+    ],
+    "type": "ode",
+    "x": 980,
+    "y": 600,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ODE4",
+    "name": "OmniTrust Interface",
+    "connectedToIds": [
+      "ME4",
+      "ODE2"
+    ],
+    "type": "ode",
+    "x": 980,
+    "y": 520,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ODE5",
+    "name": "Verizon Interface",
+    "connectedToIds": [
+      "ME2",
+      "ODE2"
+    ],
+    "type": "ode",
+    "x": 980,
+    "y": 420,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME1",
+    "name": "MioVision",
+    "connectedToIds": [
+      "APP3",
+      "APP6",
+      "APP4"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 260,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME2",
+    "name": "Verizon",
+    "connectedToIds": [
+      "APP5",
+      "APP6",
+      "ME4",
+      "ME5",
+      "ME6"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 340,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME3",
+    "name": "Raven",
+    "connectedToIds": [
+      "APP6"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 420,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME4",
+    "name": "OmniTrust",
+    "connectedToIds": [
+      "APP5",
+      "APP6",
+      "APP7",
+      "ME2",
+      "ME5",
+      "ME6"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 520,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME5",
+    "name": "P3Mobility",
+    "connectedToIds": [
+      "APP8",
+      "ME2",
+      "ME4",
+      "ME6"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 600,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "ME6",
+    "name": "AV",
+    "connectedToIds": [
+      "APP8",
+      "ME2",
+      "ME4",
+      "ME5"
+    ],
+    "type": "messageExchanger",
+    "x": 1220,
+    "y": 680,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP1",
+    "name": "HAAS",
+    "connectedToIds": [
+      "OTHER3"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 20,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP2",
+    "name": "Pre-Pass",
+    "connectedToIds": [],
+    "type": "app",
+    "x": 1560,
+    "y": 100,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP3",
+    "name": "Audi",
+    "connectedToIds": [],
+    "type": "app",
+    "x": 1560,
+    "y": 180,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP4",
+    "name": "Geotab",
+    "connectedToIds": [],
+    "type": "app",
+    "x": 1560,
+    "y": 260,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP5",
+    "name": "FHWA",
+    "connectedToIds": [
+      "ME2",
+      "ME4"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 340,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP6",
+    "name": "Raven",
+    "connectedToIds": [
+      "ME2",
+      "ME3",
+      "ME4"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 420,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP7",
+    "name": "OmniTrust",
+    "connectedToIds": [
+      "ME4"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 520,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP8",
+    "name": "P3 Mobility",
+    "connectedToIds": [
+      "ME5"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 600,
+    "width": 120,
+    "height": 60
+  },
+  {
+    "id": "APP9",
+    "name": "AV",
+    "connectedToIds": [
+      "ME6"
+    ],
+    "type": "app",
+    "x": 1560,
+    "y": 680,
+    "width": 120,
+    "height": 60
+  }
+]
