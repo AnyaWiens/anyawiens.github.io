@@ -496,14 +496,23 @@
     "fromNodeId": "OTHER1",
     "toNodeId": "ME2",
     "direction": "oneWay",
-    "path": [],
+    "path": [
+      {
+        "x": 740,
+        "y": 340
+      },
+      {
+        "x": 740,
+        "y": 360
+      }
+    ],
     "fromAnchor": {
       "x": 240,
       "y": 340
     },
     "toAnchor": {
       "x": 1220,
-      "y": 340
+      "y": 360
     }
   },
   {
@@ -732,7 +741,7 @@
       },
       {
         "x": 1140,
-        "y": 360
+        "y": 380
       }
     ],
     "fromAnchor": {
@@ -741,7 +750,7 @@
     },
     "toAnchor": {
       "x": 1220,
-      "y": 360
+      "y": 380
     }
   },
   {
@@ -867,78 +876,6 @@
     }
   },
   {
-    "id": "c_ME2_ME4",
-    "fromNodeId": "ME2",
-    "toNodeId": "ME4",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 380
-      },
-      {
-        "x": 1180,
-        "y": 560
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 380
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 560
-    }
-  },
-  {
-    "id": "c_ME2_ME5",
-    "fromNodeId": "ME2",
-    "toNodeId": "ME5",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 380
-      },
-      {
-        "x": 1180,
-        "y": 640
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 380
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 640
-    }
-  },
-  {
-    "id": "c_ME2_ME6",
-    "fromNodeId": "ME2",
-    "toNodeId": "ME6",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 380
-      },
-      {
-        "x": 1180,
-        "y": 700
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 380
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 700
-    }
-  },
-  {
     "id": "c_ME3_APP6",
     "fromNodeId": "ME3",
     "toNodeId": "APP6",
@@ -1020,54 +957,7 @@
       "y": 560
     }
   },
-  {
-    "id": "c_ME4_ME5",
-    "fromNodeId": "ME4",
-    "toNodeId": "ME5",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 560
-      },
-      {
-        "x": 1180,
-        "y": 640
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 560
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 640
-    }
-  },
-  {
-    "id": "c_ME4_ME6",
-    "fromNodeId": "ME4",
-    "toNodeId": "ME6",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 560
-      },
-      {
-        "x": 1180,
-        "y": 700
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 560
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 700
-    }
-  },
+  
   {
     "id": "c_ME5_APP8",
     "fromNodeId": "ME5",
@@ -1081,30 +971,6 @@
     "toAnchor": {
       "x": 1560,
       "y": 640
-    }
-  },
-  {
-    "id": "c_ME5_ME6",
-    "fromNodeId": "ME5",
-    "toNodeId": "ME6",
-    "direction": "bothWays",
-    "path": [
-      {
-        "x": 1180,
-        "y": 640
-      },
-      {
-        "x": 1180,
-        "y": 700
-      }
-    ],
-    "fromAnchor": {
-      "x": 1220,
-      "y": 640
-    },
-    "toAnchor": {
-      "x": 1220,
-      "y": 700
     }
   },
   {
